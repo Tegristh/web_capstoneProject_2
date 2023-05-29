@@ -1,0 +1,81 @@
+.gradient-background {
+    background: linear-gradient(300deg, #03C988, #1C82AD, #13005A);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.test{
+    height: 100vh;
+}
+.centered {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color:white;
+    padding: 40px
+}
+h2 {
+    font-family: 'IBM Plex Serif', serif;
+    color:white;
+    padding:40px;
+    padding-top:0px;
+}
+h3 {
+    margin: 40px;
+    color:#1C82AD;
+    font-family: 'IBM Plex Serif', serif;
+}
+h4 {
+    color:#13005A;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+}
+#portrait {
+    border-radius: 50%;
+
+
+}
+span {
+    font-weight: bold;
+}
+p {
+    width:400px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.hero {
+    margin-bottom: ;
+}
+.presentation {
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.table {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    border: 1 black solid;
+}
+li {
+    list-style: none;
+    font-family: 'IBM Plex Serif', serif;
+}
