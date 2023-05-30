@@ -1,3 +1,6 @@
+body {
+    margin:0;
+}
 .gradient-background {
     background: linear-gradient(300deg, #03C988, #1C82AD, #13005A);
     background-size: 180% 180%;
@@ -25,28 +28,39 @@
     align-items: center;
     gap:10px
 }
-h1 {
+.strict {
+    font-family: 'IBM Plex Serif', serif;
+}
+.lisible {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.wtf {
     font-family: 'Permanent Marker', cursive;
+}
+h1 {
     font-size: 40px;
     color:white;
-    padding: 40px
+    padding: 20px
 }
 h2 {
-    font-family: 'IBM Plex Serif', serif;
+    
     color:white;
-    padding:40px;
+    padding:10px;
     padding-top:0px;
 }
 h3 {
     margin: 40px;
     color:#1C82AD;
-    font-family: 'IBM Plex Serif', serif;
+    
 }
 h4 {
     color:#13005A;
-    font-family: 'Roboto Condensed', sans-serif;
     text-decoration: underline;
 }
+.darkblue{
+    color:#13005A;
+}
+
 #portrait {
     border-radius: 50%;
 
@@ -58,10 +72,10 @@ span {
 p {
     width:400px;
     text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .hero {
-    margin-bottom: ;
+    margin:0px ;
 }
 .presentation {
     margin-top:100px;
@@ -78,4 +92,35 @@ p {
 li {
     list-style: none;
     font-family: 'IBM Plex Serif', serif;
+}
+.contact {
+    margin:50px;
+}
+.btn {
+    color:white;
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    width:300px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.btn:hover {
+    width:350px;
+    padding:30px;
+}
+.footer {
+    width:99vw;
+    color:white;
+    padding:40px;
+}
+.pro-link {
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap:50px;
+}
+.pro-link > a {
+    color:#a4b4bb;
+    text-decoration: none;
 }
